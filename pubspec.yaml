@@ -1,0 +1,21 @@
+name: flutter_tree
+description: A CLI tool to extract and visualize Flutter widget tree structure from Dart files.
+version: 1.0.0
+
+repository: https://github.com/vanshbhardwajhere/flutter_tree
+
+maintainer: Vansh <vanshbhardwajhere@gmail.com>
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Broadened for compatibility
+
+dependencies:
+  analyzer: ^6.4.1
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
+
+executables:
+  flutter_tree: bin/flutter_tree.dart
