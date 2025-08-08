@@ -1,8 +1,9 @@
 import 'dart:io';
 import 'package:analyzer/dart/analysis/utilities.dart';
-import 'package:flutter_tree/src/tree_builder.dart';
 
 import 'package:path/path.dart' as p;
+
+import '../flutter_widget_hierarchy.dart';
 
 void runCli() async {
   print('''

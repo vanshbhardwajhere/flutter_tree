@@ -1,4 +1,4 @@
-name: flutter_tree
+name: flutter_widget_tree
 description: A CLI tool to extract and visualize Flutter widget tree structure from Dart files.
 version: 1.0.0
 

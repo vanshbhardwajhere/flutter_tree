@@ -1,3 +1,3 @@
-library fluter_tree;
+library flutter_widget_tree;
 
-export 'flutter_tree.dart';
+export 'flutter_widget_tree.dart';

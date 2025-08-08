@@ -1,8 +1,9 @@
 import 'package:analyzer/dart/ast/ast.dart';
 import 'package:analyzer/dart/ast/visitor.dart';
-import 'package:flutter_tree/src/models/widget_node.dart';
 
 import 'package:collection/collection.dart';
+
+import '../flutter_widget_hierarchy.dart';
 
 class MyVisitor extends RecursiveAstVisitor<void> {
   final List<WidgetNode> roots = [];
