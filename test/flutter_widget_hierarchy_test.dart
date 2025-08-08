@@ -1,5 +1,5 @@
 import 'package:analyzer/dart/analysis/utilities.dart';
-import 'package:flutter_widget_tree/flutter_widget_hierarchy.dart';
+import 'package:flutter_widget_tree/src/tree_builder.dart';
 import 'package:test/test.dart';
 
 void main() {

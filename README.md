@@ -16,6 +16,12 @@ It analyzes `build()` methods and prints a structured widget tree.
 - Shows widget relationships in tree format.
 
 ---
+## 👨‍💻 Author
+
+**Vansh**  
+📧 Email: [vanshbhardwajhere@gmail.com](mailto:vanshbhardwajhere@gmail.com)
+
+---
 
 ## 📦 Installation
 
@@ -26,7 +32,7 @@ It analyzes `build()` methods and prints a structured widget tree.
 ### Option 1: Install via Pub (Recommended)
 
 ```bash
-dart pub global activate flutter_tree
+dart pub global activate flutter_widget_tree
 ```
 ### Run the Tool
 ```
@@ -36,14 +42,14 @@ flutter_tree
 ### Option 2: Clone the Repo
 
 ```bash
-git clone https://github.com/vanshbhardwajhere/flutter_tree.git
+git clone https://github.com/vanshbhardwajhere/flutter_widget_tree.git
 cd flutter_tree
 ```
 
 ### Run the Tool
 
 ```bash
-dart run bin/flutter_tree.dart
+dart run bin/flutter_widget_tree.dart
 
 ```
 ---
@@ -74,13 +80,6 @@ The CLI will analyze the file and output something like:
 ## 📁 Example
 
 Use the provided sample Dart file in `/test/sample.dart` to test the tool.
-
----
-
-## 👨‍💻 Author
-
-**Vansh**  
-📧 Email: [vanshbhardwajhere@gmail.com](mailto:vanshbhardwajhere@gmail.com)
 
 ---
 
